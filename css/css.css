@@ -1,0 +1,582 @@
+@charset "gb2312";
+/* CSS Document */
+* {margin: 0;padding: 0;}
+body{
+	margin:0 0;
+	padding:0 0;
+	background:#e7edd3;}
+.Container{
+	width:1024px;
+	_height:200px; 
+    min-height:200px;
+	margin:0 auto;}
+.Top{
+	width:1024px;
+	height:140px;}
+.Main{
+	width:1024px;
+	height:955px;}
+.Foot{
+	width:1024px;
+	height:95px;
+	margin-top:5px;}
+/*---顶部样式---*/
+/*----商城自适应高度----*/
+.Main_Mall{
+	width:1024px;
+	_height:200px; 
+    min-height:200px;}
+/*----新闻自适应高度----*/
+.Not_Main{
+	width:1024px;
+	_height:200px; 
+    min-height:200px;}
+.Logo{
+	width:1024px;
+	height:80px;}
+.Logo a{
+	margin-top:20px;
+	text-decoration:none;}
+.Menu{
+	width:1000px;
+	height:60px;}
+/*----LOGO样式----*/
+.Logo_Left{
+	width:860px;
+	height:80px;
+	float:left;
+	background:url(../images/Logo.jpg) no-repeat;}
+.Logo_Right{
+	width:164px;
+	height:80px;
+	float:left;
+	font-size:12px;
+	color:#47a19c;
+	font-weight:bold;}
+/*---主体样式---*/
+.Main_Focus{
+	width:1024px;
+	height:355px;}
+.Main_Midle{
+	width:1024px;
+	height:425px;
+	margin-top:5px;}
+.MM_Title{
+	width:1024px;
+	line-height:30px;
+	padding-left:40px;
+	height:30px;
+	font-size:24px;
+	color:#e7edd3;
+	font-family:"李旭科漫画体v1.0";
+	background:url(../images/Photo.jpg) no-repeat;}
+.MM_Title span{
+	padding-left:820px;}
+.MM_Title span a{
+	color:#e7edd3;
+	text-decoration:none;}
+.MM_Title span a:hover{
+	color:#F60;}
+.MM_Cont{
+	width:1024px;
+	height:395px;}
+.Main_Photo{
+	width:1024px;
+	height:170px;
+	margin-top:10px;}
+.MP_Title{
+	width:1024px;
+	line-height:30px;
+	padding-left:40px;
+	height:30px;
+	font-size:24px;
+	color:#e7edd3;
+	font-family:"李旭科漫画体v1.0";
+	background:url(../images/Photo.jpg) no-repeat;}
+.MP_Cont{
+	width:1024px;
+	height:140px;
+	border:1px solid #74adaa;}
+		
+/*----底部样式----*/
+.FootT{
+	width:1024px;
+	height:20px;
+	color:#47a19c;}
+.FootC{
+	width:1024px;
+	height:70px;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;}
+/*----注册页面----*/
+.Reg_Container{
+	width:1024px;
+	height:740px;
+	margin:0 auto;}
+.Reg_Main{
+	width:1022px;
+	height:498px;
+	border:1px solid #74adaa;}
+.Reg_Left{
+	width:500px;
+	height:450px;
+	float:left;
+	background:url(../images/Reg.jpg) no-repeat;
+	margin-top:50px;
+	margin-right:20px;}
+.Reg_Right{
+	width:498px;
+	height:448px;
+	margin-top:50px;
+	float:left;}
+.Reg_Title{
+	text-align:center;
+	font-size:40px;
+	color:#829d1c;
+	font-family:"李旭科漫画体v1.0";}
+.Reg_Right ul{
+	margin:0 0;
+	padding:0 0;
+	list-style-type:none;}
+.Reg_Right ul li{
+	line-height:60px;
+	font-weight:bold;
+	font-size:20px;
+	color:#829d1c;
+	text-align:left;}
+.Input_T{
+	width:300px;
+	height:30px;}
+.inputB{
+	background:url(../images/titlebg.gif) repeat-x; 
+	width:80px;
+	height:28px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	margin-top:20px;
+	font-weight:bold;
+	margin-left:50px;}
+/*----留言中心----*/
+.MesgA_Container{
+	width:1024px;
+	margin:0 auto;}
+.Mesg_Container{
+	width:1024px;
+	_height:200px; 
+    min-height:200px;
+	margin:0 auto;}
+.Mesg_Main{
+	width:1022px;
+	_height:200px; 
+    min-height:200px;}
+/*----门店列表样式----*/
+.StoMain{
+	width:1024px;
+	height:139px;
+	margin-top:10px;
+	border-bottom:1px solid #74adaa;}
+.StoMain_Left{
+	width:300px;
+	height:140px;
+	float:left;}
+.SML_Photo{
+	width:300px;
+	height:100px;
+	margin-top:20px;}
+.SML_Name{
+	width:300px;
+	height:20px;
+	line-height:20px;
+	color:#74adaa;
+	font-size:16px;
+	font-family:"黑体";
+	text-align:center;}
+.StoMain_Cont{
+	width:500px;
+	height:140px;
+	margin:0 12px 0 12px;
+	float:left;}
+.SMC_Title{
+	width:500px;
+	line-height:20px;
+	color:#74adaa;
+	font-size:16px;
+	font-family:"黑体";
+	font-weight:bold;
+	height:20px;}
+.SMC_Cont{
+	width:500px;
+	height:120px;
+	line-height:40px;}
+.StoMain_Righ{
+	width:200px;
+	height:140px;
+	float:left;}
+.SMR_Title{
+	width:200px;
+	line-height:20px;
+	color:#74adaa;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	font-family:"黑体";
+	height:20px;}
+.SMR_Cont{
+	width:200px;
+	height:120px;
+	line-height:120px;
+	text-align:center;}
+/*----小二资讯----*/
+.ConS_Main{
+	width:1024px; 
+    min-height:200px;
+	margin:0 auto;}
+.ConS_Top{
+	width:1024px;
+	height:300px;}
+.CST_Title{
+	width:1024px;
+	height:30px;
+	padding-left:40px;
+	height:30px;
+	font-size:24px;
+	color:#e7edd3;
+	font-family:"李旭科漫画体v1.0";
+	background:url(../images/Photo.jpg) no-repeat;}
+.CST_Cont{
+	width:1012px;
+	height:268px;
+	color:#74adaa;
+	font-size:16px;
+	line-height:38px;
+	padding-left:10px;
+	border:1px solid #74adaa;}
+.ConS_Foot{
+	width:1024px;
+	height:200px;
+	margin-top:5px;}
+.CSF_Cont{
+	width:1012px;
+	height:168px;
+	color:#74adaa;
+	font-size:16px;
+	line-height:33px;
+	padding-left:10px;
+	border:1px solid #74adaa;}
+/*----联系我们----*/
+.Cont_Container{
+	width:1024px;
+	height:500px;
+	margin:0 auto;}
+.Cont_Main{
+	width:1024px;}
+.ContM_Top{
+	width:1024px;
+	height:220px;}
+.Contact_List{
+	width:500px;
+	font-size:20px;
+	font-family:"华文彩云";
+	height:100px;
+	float:left;
+	text-align:center;
+	margin-top:10px;}
+.Contact_Us{
+	width:500;
+	height:30px;
+	line-height:30px;}
+.Contact_On{
+	width:500;
+	height:70px;
+	margin-top:5px;}
+.ContM_Foot{
+	width:1024px;
+	height:100px;}
+.Cont_Righ{
+	width:500px;
+	float:left;}
+/*-----主体表格样式------*/
+.RightBody{ 
+padding:5px;
+font-size:13px; 
+}
+.TableInfo{ 
+border-collapse:collapse; 
+width:100%; 
+}
+.TableInfo td{ 
+padding:3px; 
+border:1px solid #CCC; 
+}
+.TableInfo th{ 
+text-align:center; 
+padding:5px; 
+border:1px solid #CCC; 
+}
+.TableInfo input{ 
+border:1px solid #CCC; 
+padding:4px;
+}
+.TableInfo textarea{ 
+border:1px solid #CCC; 
+padding:4px;
+width:300px;
+}
+.TableInfo select{ 
+border:1px solid #CCC; 
+padding:4px;
+}
+.TableInfo a{
+color:#FF0000;
+text-decoration:none;
+}
+.TableInfo a:hover{
+color:#FF9900;
+}
+.inputB{
+background:url(../images/titlebg.gif) repeat-x; 
+width:80px;
+height:28px;
+font-family:"微软雅黑";
+font-size:14px;
+font-weight:bold;
+}
+.Required{
+color:#FF0000;
+font-weight:bold;
+}
+.ListName{
+color: #000000; 
+font-size: 12px;
+text-align:center;
+}
+.ListName td{
+background:url(../images/titlebg.gif);
+height:20px;
+}
+.ListContent {
+color: #344b50;
+font-size: 12px;
+text-align:center;
+}
+.ListContent td{
+background:#FFFFFF;
+height:20px;
+}
+.PageInfo {
+margin-top:5px;
+font-size: 12px;
+color: #000;
+}
+.PageInfo a{
+color: #000;
+text-decoration:none;
+}
+.PageInfo a:hover{
+color:#FFF;
+}
+#PageNum{
+width:20px; 
+height:12px; 
+font-size:12px; 
+border:solid 1px #7aaebd;
+}
+.ToptitleInfo a{
+color:#000000;
+text-decoration:none;
+}
+.ToptitleInfo a:hover{
+color:#FF9900;
+}
+.ToptitleInfo input{
+width:80px;
+height:28px;
+background:url(../images/DelAll.jpg) no-repeat;
+border:0;
+}
+.Operation{
+color: #03515d;
+font-size: 12px;
+}
+.Operation a{
+color: #03515d;
+text-decoration:none;
+}
+.Operation a:hover{
+color:#FF0000;
+}
+/*----导航样式----*/
+.nav-menu {
+	display: block;
+	width:1024px;
+	margin: 0px auto 0px;
+}
+.nav-menu > li {
+	display: inline;
+	float:left;
+	border-right:1px solid #94c0be;
+}
+.nav-menu > li:last-child {
+	border-right: none;
+}
+.nav-menu li a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	/*调用本地字体*/
+	font-family:sansationregular;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-transform: capitalize;
+	overflow: visible;
+	line-height: 20px;
+	font-size: 20px;
+	padding: 15px 40px 15px 31px;
+}
+.three-d {
+	/* 任务三、设置3D舞台布景 */
+	-webkit-perspective: 200px;
+	-moz-perspective: 200px;
+	-ms-perspective: 200px;
+	-o-perspective: 200px;
+	perspective: 200px;
+          /*任务四、设置3D舞台布景过渡效果*/
+	-webkit-transition: all .07s linear;
+ 	-moz-transition: all .07s linear;
+ 	-ms-transition: all .07s linear;
+ 	-o-transition: all .07s linear;
+ 	transition:all .7s linear;
+	position: relative;
+}
+.three-d:not(.active):hover {
+	cursor: pointer;
+}
+/*任务五、给不是当前状态的3D舞台的悬浮与聚焦状态设置变形效果*/
+.three-d:not(.active):hover .three-d-box,  .three-d:not(.active):focus .three-d-box {
+	-wekbit-transform: translateZ(-25px) rotateX(90deg);
+ 	-moz-transform: translateZ(-25px) rotateX(90deg);
+ 	-o-transform: translateZ(-25px) rotateX(90deg);
+ 	-ms-transform: translateZ(-25px) rotateX(90deg);
+ 	transform: translateZ(-25px) rotateX(90deg);
+/*    -webkit-transform:rotateX(90deg) translatez(-25px);*/
+       /*   -webkit-transform:rotatex(90deg);*/
+}
+.three-d-box {
+    /*任务六、给3D舞台中“.three-d-box”设置过渡与变形效果*/
+	-webkit-transition: all .3s ease-out;
+ 	-moz-transition: all .3s ease-out;
+ 	-ms-transition: all .3s ease-out;
+ 	-o-transition: all .3s ease-out;
+ 	transition: all .3s ease-out;
+	-webkit-transform: translatez(-25px);
+	-moz-transform: translatez(-25px);
+	-ms-transform: translatez(-25px);
+	-o-transform: translatez(-25px);
+	transform: translatez(-25px);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-ms-pointer-events: none;
+	-o-pointer-events: none;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*任务七、给导航设置3D前，与3D后变形效果*/
+.front {
+	-webkit-transform: rotatex(0deg) translatez(25px);
+	-moz-transform: rotatex(0deg) translatez(25px);
+	-ms-transform: rotatex(0deg) translatez(25px);
+	-o-transform: rotatex(0deg) translatez(25px);
+	transform: rotatex(0deg) translatez(25px);
+}
+.back {
+	-webkit-transform: rotatex(-90deg) translatez(25px);
+	-moz-transform: rotatex(-90deg) translatez(25px);
+	-ms-transform: rotatex(-90deg) translatez(25px);
+	-o-transform: rotatex(-90deg) translatez(25px);
+	transform: rotatex(-90deg) translatez(25px);
+	color: #FFE7C4;
+}
+.front, .back {
+	/*          border:1px solid red;*/
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #74adaa;
+	padding: 15px 30px 15px 31px;
+	color: white;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-ms-pointer-events: none;
+	-o-pointer-events: none;
+	pointer-events: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+/*任务八、设置导航当前状态与悬浮状态下的背景效果*/
+.nav-menu li .active .front,  .nav-menu li .active .back,  .nav-menu li a:hover .front,  .nav-menu li a:hover .back {
+	background-color: #51938f;
+	-webkit-background-size: 5px 5px;
+	background-size: 5px 5px;
+	background-position: 0 0, 30px 30px;
+	background-image: -webit-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+	background-image: -moz-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+	background-image: -ms-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+	background-image: -o-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+	background-image: linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+}
+.nav-menu ul {
+	position: absolute;
+	text-align: left;
+	line-height: 40px;
+	font-size: 14px;
+	width: 200px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	-webkit-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-ms-transform-origin: 0px 0px;
+	-o-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	-ms-transform: rotateX(-90deg);
+	-o-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+/*任务九、显示下拉导航菜单，并其设置一个变形效果*/
+.nav-menu > li:hover ul {
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	-ms-transform: rotateX(0deg);
+	-o-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+}
+/*---图片样式Photo.php---*/
+#ScrollPic a{text-decoration:none; color:#74adaa; font-family:"李旭科漫画体v1.0"; font-size:18px;}
+#ScrollPic a:hover{color:#f4950e; font-family:"李旭科漫画体v1.0";}
+#ScrollPic img {border: #74adaa 1px solid; padding: 3px; display: block; background:#fff;margin: 0px auto;width:160px;height:95px;}
+#ScrollPic a:hover img {border: #acc418 1px solid;}

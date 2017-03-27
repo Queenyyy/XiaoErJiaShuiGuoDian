@@ -1,0 +1,238 @@
+@charset "gb2312";
+/* CSS Document */
+
+body{
+	margin:0 0;
+	padding:0 0;}
+.Container{
+	width:1200px;
+	height:700px;
+	margin:0 auto;}
+.Top{
+	width:1200px;
+	height:326px;
+	background:url(../images/Login_01.jpg) no-repeat;}
+.Top ul{
+	margin:0 0;
+	padding:0 0;
+	list-style-type:none;}
+.Top ul li{
+	line-height:50px;}
+.A{
+	text-align:center;
+	padding-top:125px;
+	font-size:50px;
+	font-weight:bold;
+	color:#acc217;}
+.B{
+	text-align:center;
+	margin-top:90px;
+	font-size:40px;
+	color:#fcc506;
+	font-family:"清茶楷体预览版";}
+.Main{
+	width:1200px;
+	height:192px;}
+.Main_L{
+	width:458px;
+	height:192px;
+	background:url(../images/Login_02.gif) no-repeat;
+	float:left;}
+.Main_M{
+	width:265px;
+	height:192px;
+	background:url(../images/Login_03.gif) no-repeat;
+	float:left;}
+.Main_R{
+	width:477px;
+	height:192px;
+	background:url(../images/Login_04.gif) no-repeat;
+	float:left;}
+.Foot{
+	width:1200px;
+	height:182px;
+	background:url(../images/Login_05.gif) no-repeat;}
+
+/*--登录界面输入框样式--*/
+.Main_M ul{
+	margin:0 0;
+	padding:0 0;
+	list-style-type:none;}
+.Main_M ul li{
+	line-height:20px;
+	font-weight:bold;
+	font-size:14px;
+	color:#829d1c;
+	margin-left:40px;}
+.InputT{
+	width:150px;
+	height:18px;
+	margin-top:10px;
+	border:1px #829d1c solid;}
+.InputV{
+	width:60px;
+	height:18px;
+	border:1px #829d1c solid;}
+.InputS{
+	width:136px;
+	height:41px;
+	border:none;/*去边框*/
+	cursor:pointer;/*鼠标的光标样式*/
+	font-size:24px;
+	font-weight:bold;
+	color:#fcc506;
+	margin-left:30px;
+	margin-top:20px;
+	font-family:"楷体";
+	background:url(../images/btn.gif) no-repeat;}
+.button{
+	margin-top:20px;}
+.Main_M img{/*验证码*/
+	cursor:pointer;
+	margin-top:10px;
+	margin-left:10px;}
+/*-----主体表格样式------*/
+.RightBody{ 
+padding:5px;
+font-size:13px; 
+}
+.TableInfo{ 
+border-collapse:collapse; 
+width:100%; 
+}
+.TableInfo td{ 
+padding:3px; 
+border:1px solid #CCC; 
+}
+.TableInfo th{ 
+text-align:center; 
+padding:5px; 
+border:1px solid #CCC; 
+}
+.TableInfo input{ 
+border:1px solid #CCC; 
+padding:4px;
+}
+.TableInfo textarea{ 
+border:1px solid #CCC; 
+padding:4px;
+width:300px;
+}
+.TableInfo select{ 
+border:1px solid #CCC; 
+padding:4px;
+}
+.TableInfo a{
+color:#FF0000;
+text-decoration:none;
+}
+.TableInfo a:hover{
+color:#FF9900;
+}
+.inputB{
+background:url(../images/titlebg.gif) repeat-x; 
+width:80px;
+height:28px;
+font-family:"微软雅黑";
+font-size:14px;
+font-weight:bold;
+}
+.Required{
+color:#FF0000;
+font-weight:bold;
+}
+.ListName{
+color: #000000; 
+font-size: 12px;
+text-align:center;
+}
+.ListName td{
+background:url(../images/titlebg.gif);
+height:20px;
+}
+.ListContent {
+color: #344b50;
+font-size: 12px;
+text-align:center;
+}
+.ListContent td{
+background:#FFFFFF;
+height:20px;
+}
+.PageInfo {
+margin-top:5px;
+font-size: 12px;
+color: #000;
+}
+.PageInfo a{
+color: #000;
+text-decoration:none;
+}
+.PageInfo a:hover{
+color:#FFF;
+}
+#PageNum{
+width:20px; 
+height:12px; 
+font-size:12px; 
+border:solid 1px #7aaebd;
+}
+.ToptitleInfo a{
+color:#000000;
+text-decoration:none;
+}
+.ToptitleInfo a:hover{
+color:#FF9900;
+}
+.ToptitleInfo input{
+width:80px;
+height:28px;
+background:url(../images/DelAll.jpg) no-repeat;
+border:0;
+}
+.Operation{
+color: #03515d;
+font-size: 12px;
+}
+.Operation a{
+color: #03515d;
+text-decoration:none;
+}
+.Operation a:hover{
+color:#FF0000;
+}
+/*-----------菜单样式----------*/
+.LeftMenu{
+	width:200px;
+	margin-top:10px;}
+.MainMenu{
+	width:180px;
+	margin:0 auto;
+	font-size:14px;}
+.Menu1{
+	width:180px;
+	height:28px;
+	background:url(../images/munebutton.gif) no-repeat;
+	text-align:center;
+	font-weight:bold;
+	line-height:28px;}
+.Menu2{
+	width:178px;
+	border:1px #afeeb2 solid;
+	border-top:none;}
+.Menu2 ul{
+	margin:0 0;
+	padding:0 0;
+	list-style-type:none;
+	margin-left:50px;}
+.Menu2 ul li{
+	background-image:url(../images/tubiao.gif);
+	background-repeat:no-repeat;/*背景图片不平铺*/
+	background-position:0 7px;/*背景坐标调整*/
+	padding-left:15px;
+	line-height:25px;}
+.Menu2 ul li a{/*鼠标初始*/
+	color:#03c222;
+	text-decoration:none;}
+.Menu2 ul li a:hover{ /*鼠标经过*/
+	color:#000;}
